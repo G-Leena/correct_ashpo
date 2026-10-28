@@ -1906,5 +1906,14 @@ button {
     display: inline-block;
 }
 
+.btn-violate {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.btn-violate:hover {
+  transform: scale(1.1);
+}
+
 
 
